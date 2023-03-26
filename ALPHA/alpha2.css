@@ -1,0 +1,224 @@
+body{
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+}
+#HeaderSection{
+    color: white;
+    display: flex;/*content in same line*/
+    justify-content: space-between;
+    align-items: center;
+}
+#HeaderSection div h1{
+    font-size: 20px;
+}
+#HeaderSection div ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#HeaderSection div ul li button{
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+}
+#HeaderSection div h1 span{
+    font-weight: 100;
+}
+#BodySection{
+    text-align: center;
+    color: white;
+    margin-top: 160px;
+
+}
+#BodySection h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+#BodySection p{
+    font-size: 25px;
+    margin-top: 40px;
+}
+#BodySection button{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color:#ffffff;
+    color: #4a515c;
+    margin-right: 20px;
+}
+#BodySection #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #8b99a3;
+}
+#ContentSection{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto; /* content in center*/
+    border-radius: 5px;
+    padding-top: 40px;
+    color: #a4a4a4;
+    margin-top: 200px;
+}
+#ContentSection h1{
+    font-size: 40px;
+}
+#ContentSection p{
+    border-top: 1px solid #e5e5e5;/*horizontal line*/
+    width:65%;
+    margin: auto;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+#ContentSection img{
+    width: 100%;
+}
+#IconSection{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    color:  #93a9c4;
+    margin-top: 25px;
+}
+#IconSection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+}
+#IconSection div h1{
+    font-size: 33px;
+}
+#IconSection div p{
+    font-size: 20px;
+}
+.fa.fa-bolt{
+    font-size: 45px;
+    background-color: #e89980;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 30px;
+}
+.fa.fa-area-chart{
+    font-size: 45px;
+    background-color:#7fcdb8;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 30px;
+}
+.fa.fa-cloud{
+    font-size: 45px;
+    background-color:#90b0ba;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 30px;
+
+}
+.fa.fa-lock{
+    font-size: 45px;
+    background-color: #e5cb95;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 30px;
+
+}
+#IconSection #div1{
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    left: 3px;
+}
+#IconSection #div4{
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    position: relative;
+    bottom: 0px;
+}
+#ImageSection{
+    width: 70%;/*taking width from left side as above div*/
+    margin: auto;
+    margin-top: 30px;
+    color:  #686868;
+}
+#ImageSection div{
+    display: inline-block;/*for both div in same line*/
+    width:48%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#ImageSection div img{
+    width: 100%;
+}
+#ImageSection div h1{
+    font-size: 33px;
+}
+#ImageSection div button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    color: #686868;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+}
+#ImageSection #div6{
+    margin-left: 42px;
+}
+#SignupSection{
+    margin-top: 90px;
+    padding: 49px 0px 80px 0px;
+    width: auto;
+    background-color: #e89980;
+    text-align: center;
+    color: white;
+}
+#SignupSection div h1{
+    font-size: 40px;
+    font-weight: 400;
+
+}
+#SignupSection div p{
+    font-size: 20px;
+}
+#SignupSection div input{
+    height: 40px;
+    width: 244px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #eba893;
+    color: white;
+
+}
+#SignupSection div input::placeholder{
+    color: white;
+}
+#SignupSection div button{
+    height: 50px;
+    width:120px;
+    color: #e89980;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 35px;
+}
+#FooterSection{
+    text-align: center;
+    font-size: 36px;
+    color: #c6c6c6;
+    margin-top: 50px;
+}
+#FooterSection #div7{
+    
+}

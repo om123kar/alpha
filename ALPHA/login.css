@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(195, 175, 214);
+    font-size: 33px;
+    text-align: center;
+    margin-top: 200px;
+    gap: 90px;
+}
+#btn{
+    margin-top: 33px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+#uname{
+    height: 30px;
+    width:150px;
+    border-radius: 5px;
+}
+#pass{
+    height: 30px;
+    width:150px;
+    border-radius: 5px;
+}
+span{
+    color:red;
+}
